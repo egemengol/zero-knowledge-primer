@@ -15,7 +15,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/images/logo.png',
-    repo: 'vuejs/vuepress',
+    repo: 'egemengol/zero-knowledge-primer',
     repoLabel: 'Repo',
     displayAllHeaders: true,
     sidebar: [
