@@ -27,7 +27,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: "Theory",
         children: [
           '/zk-theory',
-          '/zk-theory/compare.md'
+          '/zk-theory/snark-vs-stark.md'
         ]
       }, {
         text: "Projects",
