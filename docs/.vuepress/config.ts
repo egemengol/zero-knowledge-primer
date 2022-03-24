@@ -19,8 +19,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     repoLabel: 'Repo',
     docsDir: 'docs',
     lastUpdated: false,
-    contributors: false,
-    editLink: false,
+    // contributors: false,
+    // editLink: false,
     displayAllHeaders: true,
     sidebar: [
       {
