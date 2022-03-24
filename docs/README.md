@@ -4,10 +4,10 @@ title: Home
 heroImage: /images/logo.png
 actions:
   - text: Theory 
-    link: /theory
+    link: /zk-theory
     type: primary
   - text: Projects
-    link: /projects
+    link: /zk-projects
     type: primary
 features:
   - title: Simplicity First

@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
-  base: '/zero-knowledge-primer/',
+  // base: '/zk-primer/',
   lang: 'en-US',
   title: 'Zero Knowledge Primer',
   description: 'A high level look to ZK',
@@ -22,19 +22,19 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: "Theory",
         children: [
-          '/theory',
-          '/theory/compare.md'
+          '/zk-theory',
+          '/zk-theory/compare.md'
         ]
       }, {
         text: "Projects",
         children: [
-          '/projects',
+          '/zk-projects',
         ]
       }, {
         text: "Misc",
         collapsible: true,
         children: [
-          '/credits.md',
+          '/zk-credits.md',
         ]
       }
     ],
