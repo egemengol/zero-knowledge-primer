@@ -1,0 +1,1 @@
+const e={key:"v-1993c2d1",path:"/theory/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648134153e3,contributors:[{name:"Egemen Go\u0308l",email:"egemengol@gmail.com",commits:1}]},filePathRelative:"theory/README.md"};export{e as data};
