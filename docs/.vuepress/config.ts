@@ -17,6 +17,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/images/logo.png',
     repo: 'egemengol/zero-knowledge-primer',
     repoLabel: 'Repo',
+    docsDir: 'docs',
+    lastUpdated: false,
+    contributors: false,
+    editLink: false,
     displayAllHeaders: true,
     sidebar: [
       {
