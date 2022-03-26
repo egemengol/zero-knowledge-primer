@@ -3,10 +3,10 @@ home: true
 title: Home
 heroImage: /images/logo.png
 actions:
-  - text: Theory 
-    link: /zk-theory
-    type: primary
-  - text: Projects
+  # - text: Theory 
+  #   link: /zk-theory
+  #   type: primary
+  - text: ZK Projects
     link: /zk-projects
     type: primary
 features:

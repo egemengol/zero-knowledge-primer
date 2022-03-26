@@ -8,8 +8,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'Zero Knowledge Primer',
   description: 'A high level look to ZK',
   head: [
-    ['link', { rel: 'icon', href: '/images/logo.png' }]
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
   ],
+  //TODO: MATHJAX!!!!
+
 
   // theme and its config
   theme: '@vuepress/theme-default',
@@ -23,16 +25,18 @@ export default defineUserConfig<DefaultThemeOptions>({
     // editLink: false,
     displayAllHeaders: true,
     sidebar: [
+      // {
+      //   text: "Theory",
+      //   children: [
+      //     '/zk-theory',
+      //     '/zk-theory/snark-vs-stark.md'
+      //   ]
+      // }, 
       {
-        text: "Theory",
-        children: [
-          '/zk-theory',
-          '/zk-theory/snark-vs-stark.md'
-        ]
-      }, {
         text: "Projects",
         children: [
           '/zk-projects',
+          '/zk-projects/zokrates.md',
         ]
       }, {
         text: "Misc",
