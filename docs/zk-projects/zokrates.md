@@ -1,8 +1,3 @@
----
-sidebarDepth: 3
-mathjax:
-  presets: \def\lr#1#2#3{\left#1#2\right#3}
----
 # Zokrates
 
 According to the [ZoKrates docs](https://zokrates.github.io/introduction.html):

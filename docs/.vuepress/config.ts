@@ -35,7 +35,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: "Projects",
         children: [
-          '/zk-projects',
           '/zk-projects/zokrates.md',
         ]
       }, {

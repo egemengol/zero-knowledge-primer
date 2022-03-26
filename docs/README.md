@@ -7,7 +7,7 @@ actions:
   #   link: /zk-theory
   #   type: primary
   - text: ZK Projects
-    link: /zk-projects
+    link: /zk-projects/zokrates.md
     type: primary
 features:
   - title: Simplicity First
