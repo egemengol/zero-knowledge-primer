@@ -10,7 +10,7 @@ StarkNet [supports two data avaliability modes](https://docs.starkware.co/starke
 
 In ZK-Rollup mode, the new balances are published on the L1 chain for every batch. This mode is trustless, every user can withdraw their balance without any input from the L2. The catch is, much of the transaction cost is spent on publishing this data on L1.
 
-In Validium mode, the data only lives on a L2 network. Cost is lower and state changes are invisible from L1. However, withdrawing funds requires cooperation from that network.
+In Validium mode, the data only lives on a L2 network called Data Availability Commitee. Cost is lower and state changes are invisible from L1. However, withdrawing funds requires cooperation from that network.
 
 ## Components
 Taken from [StarkWare docs](https://docs.starkware.co/starkex-v4/overview)

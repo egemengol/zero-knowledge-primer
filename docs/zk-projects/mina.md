@@ -24,7 +24,7 @@ The nodes that are participating to the operation of the Mina Protocol itself st
 ## zkApps
 Mina is on the way of supporting a very interesting type of smart contracts.
 
-Every contract is a Verifier program, and every transaction with them must be correct Proofs. Since Proofs are created locally, every smart contract transaction is essentially the same from the network's perspective since it always performs a verification which takes constant time, irregardless of the complexity of the contract. No gas fees or limits.
+Every contract is a Verifier program, and every transaction with them must be correct Proofs. Since Proofs are created locally, every smart contract transaction is essentially the same from the network's perspective since it always performs a verification which takes constant time, regardless of the complexity of the contract. No gas fees or limits.
 
 SnarkyJS, which is the zkApp development library is written in TypeScript, allowing the users to compute their proofs right in the browser. 
 
