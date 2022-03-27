@@ -7,6 +7,10 @@
 
 [Understanding rollup economics from first principles](https://barnabe.substack.com/p/understanding-rollup-economics-from?s=r) breaks down the cost structure. The main culprits are L1 publication costs and L2 operator costs.
 
+[zkPorter: a breakthrough in L2 scaling](https://blog.matter-labs.io/zkporter-a-breakthrough-in-l2-scaling-ed5e48842fbf) introduces the fractal scaling solution for the off-chain data availability of the zkSync project.
+
+[L2 Interoperability: A Comparison Between StarkEx, Loopring, Hermez and Connext](https://medium.com/@sin7y/l2-interoperability-a-comparison-between-starkex-loopring-hermez-and-connext-33fa3e720c94) discusses the different interoperability methods between said projects, bypassing L1.
+
 [zkRollup Directory](https://www.zkrollups.xyz/) curates a list of active zk-rollup projects.
 
 [L2 Fees](https://l2fees.info/) compares the costs between L2 solutions.
