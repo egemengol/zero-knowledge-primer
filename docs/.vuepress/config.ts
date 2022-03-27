@@ -37,6 +37,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: [
           '/zk-projects/zokrates.md',
           '/zk-projects/mina.md',
+          '/zk-projects/starknet-cairo.md',
         ]
       }, {
         text: "Misc",

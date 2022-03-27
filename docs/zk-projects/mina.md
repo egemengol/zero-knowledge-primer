@@ -1,6 +1,6 @@
 # Mina
 According to the [Mina homepage](https://minaprotocol.com/):
-> We are the world’s lightest blockchain, powered by participants. Using zero knowledge technology, Mina is creating the infrastructure for the secure, democratic future we all deserve.
+> We are the world's lightest blockchain, powered by participants. Using zero knowledge technology, Mina is creating the infrastructure for the secure, democratic future we all deserve.
 
 ## Verifiable with 22KB
 For traditional blockchains like Bitcoin or Ethereum, anyone that wants to verify the correctness of the blockchain needs to verify every block starting from the genesis, by hashing the blocks themselves and check the hashes.
