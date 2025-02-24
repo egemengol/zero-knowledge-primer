@@ -17,7 +17,7 @@ export default defineUserConfig({
     repo: "egemengol/zero-knowledge-primer",
     repoLabel: "Repo",
     docsDir: "docs",
-    lastUpdated: true,
+    lastUpdated: false,
     // contributors: false,
     // editLink: false,
     displayAllHeaders: true,
