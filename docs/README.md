@@ -13,11 +13,16 @@ actions:
   - text: Zk Project Summaries
     link: /summaries/zokrates.md
     type: primary
+  - text: Spread
+    link: /spread/introduction.md
+    type: primary
 features:
   - title: ZkPassport
     details: Contains our ZkPassport implementation journey and learnings
   - title: Zk Project Summaries
     details: Contains one-page summaries of famous zk-projects in the wild
+  - title: Spread
+    details: The Golang Pub/Sub library
 #   - title: Performant
 #     details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
 #   - title: Themes

@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defaultTheme } from "@vuepress/theme-default";
+import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 
 export default defineUserConfig({
   bundler: viteBundler(),
@@ -18,18 +19,8 @@ export default defineUserConfig({
     repoLabel: "Repo",
     docsDir: "docs",
     lastUpdated: false,
-    // contributors: false,
-    // editLink: false,
-    displayAllHeaders: true,
 
     sidebar: [
-      // {
-      //   text: "Theory",
-      //   children: [
-      //     '/zk-theory',
-      //     '/zk-theory/snark-vs-stark.md'
-      //   ]
-      // },
       {
         text: "Summaries",
         children: [
@@ -50,6 +41,10 @@ export default defineUserConfig({
         ],
       },
       {
+        text: "Spread",
+        children: ["/spread/introduction.md", "/spread/chatroom.md"],
+      },
+      {
         text: "Misc",
         collapsible: true,
         children: ["/zk-credits.md"],
@@ -66,4 +61,60 @@ export default defineUserConfig({
       },
     ],
   }),
+  plugins: [
+    prismjsPlugin({
+      // // Choose a theme (you can select from many available themes)
+      // theme: "one-dark", // A popular dark theme
+
+      // // Or use light/dark themes based on user preference
+      themes: {
+        light: "one-light",
+        // light: "material-light",
+
+        dark: "one-dark",
+        // dark: "material-oceanic",
+      },
+
+      // // Enable line numbers (true by default)
+      // lineNumbers: true,
+
+      // // Enable highlighting specific lines
+      // highlightLines: true,
+
+      // // Enable code collapsing (disabled by default)
+      // collapsedLines: false,
+
+      // // Enable diff notation
+      // notationDiff: true,
+
+      // // Enable focus notation
+      // notationFocus: true,
+
+      // // Enable highlight notation
+      // notationHighlight: true,
+
+      // // Enable error/warning level
+      // notationErrorLevel: true,
+
+      // // Enable word highlighting
+      // notationWordHighlight: true,
+
+      // // Display whitespace
+      // whitespace: false,
+
+      // Pre-load commonly used languages to avoid loading issues
+      preloadLanguages: [
+        "golang",
+        "go",
+        // "javascript",
+        // "typescript",
+        // "bash",
+        // "markdown",
+        // "json",
+        // "yaml",
+        // "css",
+        // "html",
+      ],
+    }),
+  ],
 });
